@@ -1,5 +1,34 @@
 # Changelog
 
+## 3.2.0 (2025-11-14)
+
+Full Changelog: [v3.1.0...v3.2.0](https://github.com/Metronome-Industries/metronome-python/compare/v3.1.0...v3.2.0)
+
+### Features
+
+* [ORCH-752] Update contract creation endpoints to allow setting revenue system configuration ([29726f1](https://github.com/Metronome-Industries/metronome-python/commit/29726f1244f3bd558999989c058e7801a1eaacb5))
+* adds external_payment_id to ExternalInvoice ([35e26be](https://github.com/Metronome-Industries/metronome-python/commit/35e26be2ede51e494fd0f96ef6dda5754e9141eb))
+* GET-6845 get openapi specs ready for GA ([b5fb320](https://github.com/Metronome-Industries/metronome-python/commit/b5fb320ba619c3de5428f9c2e08b922766d0ffac))
+* include aggregation BM info from searchEvents ([8fa8457](https://github.com/Metronome-Industries/metronome-python/commit/8fa84575cb6b097acc3ca1b5048ea9df5f66af53))
+* update create alert api to allow LowRemainingSeatBalanceReached alert ([28bbf3e](https://github.com/Metronome-Industries/metronome-python/commit/28bbf3ec4e2299d5cb8e1e8faba92399b8b27a06))
+
+
+### Bug Fixes
+
+* compat with Python 3.14 ([d033920](https://github.com/Metronome-Industries/metronome-python/commit/d033920ce482641ec7c705a592e20629c18c720f))
+* **compat:** update signatures of `model_dump` and `model_dump_json` for Pydantic v1 ([8748946](https://github.com/Metronome-Industries/metronome-python/commit/8748946083d6f8582dc5d91446952f2987fca3f4))
+
+
+### Chores
+
+* **internal:** grammar fix (it's -&gt; its) ([e844546](https://github.com/Metronome-Industries/metronome-python/commit/e8445469bd3c10da8a3c6d99b1e441866d3e1277))
+* **package:** drop Python 3.8 support ([caf05b2](https://github.com/Metronome-Industries/metronome-python/commit/caf05b2f01f75a1364b9a4d00b7eff8d79e8b1f3))
+
+
+### Documentation
+
+* document missing fields for schemas related to recurring credits and commits ([3ecb1d7](https://github.com/Metronome-Industries/metronome-python/commit/3ecb1d7544db26e955f1b08e3cb1675c0613108a))
+
 ## 3.1.0 (2025-10-31)
 
 Full Changelog: [v3.0.0...v3.1.0](https://github.com/Metronome-Industries/metronome-python/compare/v3.0.0...v3.1.0)
